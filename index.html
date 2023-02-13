@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/png" href="./assets/img/png/favicon.png" />
+
+		<!-- Put your site title here -->
+		<title>Portfolio | Rodrigo Breda Pinheiro</title>
+
+		<meta
+			name="description"
+			content="Hi i'm Rodrigo Breda Pinheiro and I'm full stack web developer." />
+		<!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+		<meta
+			name="keywords"
+			content="Rodigo Breda Pinheiro, React, angular, css, html, js, portfolio, nodejs, front-end, full-stack" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+
+	<body>
+		<!-- ***** Header ***** -->
+
+		<header class="header" role="banner" id="top">
+			<div class="row">
+				<nav class="nav" role="navigation">
+					<ul class="nav__items">
+						<li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+						<li class="nav__item"><a href="#clients" class="nav__link">My Skills</a></li>
+						<li class="nav__item">
+							<a href="#about" class="nav__link">About</a>
+						</li>
+						<li class="nav__item">
+							<a href="#contact" class="nav__link">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__text-box row">
+				<div class="header__text">
+					<h1 class="heading-primary title-anim">
+						<div class="span-container s1">
+							<span>Rodrigo Breda Pinheiro</span>
+						</div>
+					</h1>
+					<p>Web Developer based in Paris.</p>
+					<a href="#contact" class="btn btn--pink">Contact Me</a>
+				</div>
+			</div>
+		</header>
+
+		<main role="main">
+			<!-- ***** Work ***** -->
+
+			<section class="work" id="work">
+				<div class="row">
+					<h2 class="heading-1" data-var="--underline-heading-1">My Work</h2>
+					<div class="work__boxes">
+						<!-- Each div with the work__box class is a project. -->
+
+						<div class="work__box">
+							<div class="work__text">
+								<h3>Data Visualization</h3>
+								<p>
+									A team project. A data visualization of crypto-currencies with their prices etc...
+								</p>
+								<ul class="work__list">
+									<li>HTML</li>
+									<li>TailwindCss</li>
+									<li>JavaScript</li>
+								</ul>
+
+								<div class="work__links">
+									<a
+										href="http://sae303.qgp.rbp.quentin.geoffroy-pitailler.mmi-velizy.fr/html/index.html"
+										target="_blank"
+										class="link__text">
+										Visit Site <span>&rarr;</span>
+									</a>
+									<a
+										href="https://github.com/QuentinGP23/SAE301datavisualisation.git"
+										title="View Source Code"
+										target="_blank">
+										<img src="./assets/img/svg/github.svg" class="work__code" alt="GitHub" />
+									</a>
+								</div>
+							</div>
+							<div class="work__image-box">
+								<img src="./assets/img/png/project-1.png" class="work__image" alt="Project 1" />
+							</div>
+						</div>
+
+						<div class="work__box">
+							<div class="work__text">
+								<h3>Calculator</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eius.</p>
+								<ul class="work__list">
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>JavaScript</li>
+									<li>Git</li>
+								</ul>
+
+								<div class="work__links">
+									<a href="#" class="link__text"> Visit Site <span>&rarr;</span> </a>
+									<a href="#">
+										<img
+											src="./assets/img/svg/github.svg"
+											class="work__code"
+											title="View Source Code"
+											alt="GitHub" />
+									</a>
+								</div>
+							</div>
+							<div class="work__image-box">
+								<img src="./assets/img/png/project-2.png" class="work__image" alt="Project 1" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ***** My Skills ***** -->
+
+			<section class="client" id="clients">
+				<div class="row">
+					<h2 class="heading-2" data-var="--underline-heading-2">My Skills</h2>
+					<div class="client__logos skills-container">
+						<!-- Add logos of the clients or companies you'have worked with. -->
+						<img
+							src="./assets/img/svg/html.svg"
+							class="client__logo skill skill-1"
+							alt="Company 2" />
+						<img
+							src="./assets/img/svg/css-3.svg"
+							class="client__logo skill skill-2"
+							alt="Company 3" />
+						<img
+							src="./assets/img/svg/javascript.svg"
+							class="client__logo skill skill-3"
+							alt="Company 1" />
+						<img
+							src="./assets/img/svg/php.svg"
+							class="client__logo skill skill-4"
+							alt="Company 1" />
+						<img
+							src="./assets/img/svg/sass.svg"
+							class="client__logo skill skill-5"
+							alt="Company 3" />
+						<img
+							src="./assets/img/svg/nodejs.svg"
+							class="client__logo skill skill-6"
+							alt="Company 1" />
+					</div>
+				</div>
+			</section>
+			<!-- ***** My Learning Skills ***** -->
+
+			<section class="client">
+				<div class="row row-learning-skills">
+					<h2 class="heading-3" data-var="--underline-heading-3">My Learning Skills</h2>
+					<div class="Learning-Skills learning-skills-container">
+						<!-- Add logos of the clients or companies you'have worked with. -->
+						<img
+							src="./assets/img/svg/react.svg"
+							class="client__logo learning-skill"
+							alt="Company 2" />
+						<img
+							src="./assets/img/svg/tailwind.svg"
+							class="client__logo learning-skill"
+							alt="Company 3" />
+						<img
+							src="./assets/img/svg/typescript.svg"
+							class="client__logo learning-skill"
+							alt="Company 1" />
+					</div>
+				</div>
+			</section>
+
+			<!-- ***** About ***** -->
+
+			<section class="about" id="about">
+				<div class="row">
+					<h2 class="heading-4" data-var="--underline-heading-4">About Me</h2>
+					<div class="about__content">
+						<div class="about__text">
+							<!-- Replace the below paragraph with info about yourself -->
+							<p>
+								Hi! I'm Rodrigo, a web developer, with a passion for coding and a strong desire to
+								create functional and aesthetically pleasing websites. I strive to produce
+								high-quality work for my clients. I specialize in HTML, CSS, and JS. I am
+								experienced in developing both front-end solutions, but I'm currently learning how
+								to devlop back-end solutions too.
+							</p>
+							<!-- Provide a link to your resume -->
+							<a href="#" class="btn resume-btn">My Resume</a>
+						</div>
+
+						<div class="about__photo-container">
+							<!-- Add a nice photo of yourself -->
+							<img class="about__photo" src="./assets/img/jpg/rodrigo.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- ***** Contact ***** -->
+
+		<section class="contact" id="contact">
+			<div class="row">
+				<h2 class="heading-5" data-var="--underline-heading-5">Get in Touch</h2>
+				<div class="contact__info">
+					<p>
+						Thank you for visiting my portfolio! If you're looking for a dedicated web developer,
+						then I would love to hear from you.
+					</p>
+					<!-- Replace the email with yours -->
+					<a href="mailto:rodrigo.bredapinh@gmail.com" class="btn">Contact Me</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- ***** Footer ***** -->
+
+		<footer role="contentinfo" class="footer">
+			<div class="row">
+				<ul class="footer__social-links-container">
+					<li class="footer__social-link-item">
+						<a href="https://github.com/Rodrigu-e" title="Link to Github Profile">
+							<img src="./assets/img/svg/github.svg" class="footer__social-image" alt="Github" />
+						</a>
+					</li>
+					<li class="footer__social-link-item">
+						<a href="https://codepen.io/Breda_Rodrigo" title="Link to Codepen Profile">
+							<img src="./assets/img/svg/codepen.svg" class="footer__social-image" alt="Codepen" />
+						</a>
+					</li>
+					<li class="footer__social-link-item">
+						<a href="https://www.linkedin.com/in/rodrigo-breda-pinheiro-a52435224/">
+							<img
+								src="./assets/img/svg/linkedin.svg"
+								title="Link to Linkedin Profile"
+								class="footer__social-image"
+								alt="Linkedin" />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+
+		<dialog class="dialog">
+			<img src="./assets/img/jpg/cv.jpg" alt="CV de Rodrigo Breda Pinheiro" />
+			<div class="btn-container">
+				<a
+					href="./assets/pdf/CV_Rodrigo_Breda_Pinheiro.pdf"
+					download
+					class="download-btn btn-dialog btn"
+					>Download</a
+				>
+				<a class="close-btn btn-dialog btn">Close</a>
+			</div>
+		</dialog>
+		<script src="./index.js"></script>
+	</body>
+</html>
